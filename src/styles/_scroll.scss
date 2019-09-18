@@ -1,0 +1,46 @@
+.scroll {
+  color: #822000;
+  display: flex;
+  flex-direction: column;
+  font-family: "ScalySans";
+  height: 100%;
+  justify-content: center;
+  min-width: 45vw;
+  padding: 0 40px 0 40px;
+}
+
+.scroll_border {
+  background-image: url("/assets/scroll_border.png");
+  border-radius: 2px;
+  border: 1px solid 1px solid #2f2112;
+  height: 6px;
+  transform: translateX(-0.5%);
+  width: 101%;
+}
+
+.scroll_page {
+  background-image: url("/assets/scroll_page.png");
+  flex-grow: 1;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.scroll_wrapper {
+  margin: 0 15px;
+
+  .header {
+    margin-bottom: 0;
+    margin-top: 15px;
+    i {
+      color: black;
+    }
+  }
+  .title {
+    align-items: center;
+    display: flex;
+    font-family: "Mr Eaves";
+    font-size: 2.5em;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+  }
+}

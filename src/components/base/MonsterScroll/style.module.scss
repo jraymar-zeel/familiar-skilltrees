@@ -1,0 +1,35 @@
+@import "styles/_scroll";
+
+.scroll {
+  min-width: 65%;
+  min-height: 400px;
+  height: 50%;
+  font-size: 1.05rem;
+}
+
+.scroll_wrapper {
+  display: flex;
+  flex-direction: column;
+  > div {
+    width: 50%;
+  }
+  .raw_stats {
+    width: 30%;
+  }
+}
+
+.raw_stats {
+  display: flex;
+  justify-content: space-between;
+  width: 30% !important;
+}
+
+.separator {
+  clip-path: polygon(0 38%, 0 62%, 60% 50%);
+  height: 20px;
+  background-color: #822000;
+}
+
+.abilities {
+  color: black;
+}

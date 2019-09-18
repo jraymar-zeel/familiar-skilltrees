@@ -1,0 +1,31 @@
+@import "styles/_scroll";
+
+.modal {
+  align-items: center;
+  background-color: black;
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  &.open {
+    display: block;
+  }
+}
+
+.close_button {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  color: white;
+  cursor: pointer;
+}
+
+.back {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

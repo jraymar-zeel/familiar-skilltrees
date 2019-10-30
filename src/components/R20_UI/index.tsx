@@ -39,7 +39,7 @@ class R20_UI extends Component<Props, State> {
     this.state = {
       tierList: tList,
       r20: r20,
-      modalOpen: true
+      modalOpen: false
     };
   }
 
